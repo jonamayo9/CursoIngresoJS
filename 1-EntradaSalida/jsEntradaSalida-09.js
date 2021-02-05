@@ -5,12 +5,18 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
-	//Declarar
-	var numero
-	var resultado
+//Declarar
+var numero;
+var aumento;
+var porcentajeAumento = 10;
+var resultado;
 
-	resultado = parseInt(nuemero )
+numero = parseInt(txtIdSueldo.value);
 
+aumento = numero * porcentajeAumento / 100;
 
-	alert("ok");
+resultado = numero + aumento;
+
+txtIdResultado.value = resultado;
+
 }

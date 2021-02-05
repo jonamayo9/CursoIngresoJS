@@ -1,4 +1,3 @@
-
 function mostrar()
 {
 var altura;
@@ -18,4 +17,3 @@ calculo_final = calculo_altura + calculo_base;
 alert("el perimetro de la base es " + calculo_final);
 
 }
-
