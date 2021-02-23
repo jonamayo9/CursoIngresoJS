@@ -1,22 +1,30 @@
-/*
-Debemos lograr tomar el importe por ID.
-Transformarlo a entero (parseInt), luego
-mostrar el importe con un Descuento del 25 %
-en el cuadro de texto "RESULTADO"*/
+//Mayo Jonathan Ezequiel  División ´G´
+
+// Correccion 1
+
+//se debe pedir el nombre del producto , tambien se debe pedir el porcentaje de descuento al usuario,
+//mostar el mensaje "usted compro un XXXXXX con XX % de descuento, el precio final es XXXX"
+
 function mostrarAumento()
 {
 
-var numero
-var Descuento
-var porcentajeDescuento = 25;
-var resultado
+	var produccto;
+	var importe;
+	var Descuento
+	var porcentajeDescuento;
+	var resultado
 
-numero = parseInt(txtIdImporte.value);
+	producto = prompt("Ingrese un Producto ");
 
-Descuento = numero * porcentajeDescuento / 100;
+	importe = prompt("Ingrese un importe")
 
-resultado = numero - Descuento;
+	porcentajeDescuento=prompt("Ingrese un Descuento")
 
-txtIdResultado.value = resultado;
+	Descuento = importe * porcentajeDescuento / 100;
+
+	resultado = importe - Descuento;
+
+	alert("Usted compro " + producto + " con " +porcentajeDescuento+ " % de descuento, el precio final es de $" +resultado);
+
 
 }
