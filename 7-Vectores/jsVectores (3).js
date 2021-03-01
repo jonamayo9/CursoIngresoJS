@@ -1,11 +1,13 @@
 function mostrar()
 {
 
-	var miArray = new Array();
+	var arrayNumeros = [];
+	var numeros;
 
 	for (var i = 0; i <5; i++)
 	{
-		miArray[i]=parseInt(prompt("Ingrese un numero"));
+		numeros=parseInt(prompt("Ingrese un numero"));
+		arrayNumeros.push(numeros);
 	}
 
 
@@ -13,7 +15,7 @@ function mostrar()
 	for(var i=0; i<5; i++)
 	{
 
-		document.write("Posicion "+i+"-->"+miArray[i]+"<br>");
+		document.write("Posicion "+i+"-->"+arrayNumeros[i]+"<br>");
 	}
 
 

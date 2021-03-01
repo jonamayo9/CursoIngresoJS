@@ -33,11 +33,11 @@ function mostrar()
 
 //		acumulador = acumulador + numero;
 //		contador = contador + 1;
-		respuesta = prompt("Desea ingresar otro numero?");
+		respuesta = confirm("Desea ingresar otro numero?");
 
 
-
-	}while (respuesta == 'si'); 
+ 
+	}while (respuesta); 
 
 	if (flag == 0) {
 		multiplicacionNegativos = 0;

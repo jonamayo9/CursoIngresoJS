@@ -1,25 +1,25 @@
 function mostrar()
 {
 
-	var miArray = new Array();
+	var arrayNumeros = [];
 
-	miArray[0]=5;
-	miArray[1]=74;
-	miArray[2]=8;
-	miArray[3]=94;
-	miArray[4]=5;
-	miArray[5]=0;
-	miArray[6]=80;
-	miArray[7]=789;
-	miArray[8]=5;
-	miArray[9]=7;
+	arrayNumeros[0]=5;
+	arrayNumeros[1]=74;
+	arrayNumeros[2]=8;
+	arrayNumeros[3]=94;
+	arrayNumeros[4]=5;
+	arrayNumeros[5]=0;
+	arrayNumeros[6]=80;
+	arrayNumeros[7]=789;
+	arrayNumeros[8]=5;
+	arrayNumeros[9]=7;
 
-document.write("El contenido del vector es: <br>");
+//document.write("El contenido del vector es: <br>");
 
 	for(var i=0; i<10; i++)
 	{
 
-		document.write("Posicion "+i+"-->"+miArray[i]+"<br>");
+		console.log("Posicion "+i+"-->"+arrayNumeros[i]+"<br>");
 	}
 
 
